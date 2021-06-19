@@ -1,0 +1,1 @@
+simple-bot: python simple_bot.py
