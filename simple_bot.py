@@ -1,7 +1,7 @@
 import telebot
 import storage
 import os
-token = os.getenv('SIMPLE_BOT_TOKEN')
+token = os.getenv('1897202859:AAG0mNSPsMQ446m4WQ9IfnwQj3ZHamoUuV8')
 
 
 def parse_location(message):
