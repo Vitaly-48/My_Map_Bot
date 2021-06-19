@@ -47,8 +47,7 @@ def handle_reset(message):
 @bot.message_handler()
 def handle_help(message):
     bot.send_message(message.chat.id, text='''
-    Это демонстрация базового бота для добавления локаций. \n
-Он позволяет выполнять две команды: \n
+   Привет. \n
 /add сохранить новый адрес \n
 /list должен вернуть список из 10 последних локаций \n
 /reset позволяет удалить все добавленные локации \n
