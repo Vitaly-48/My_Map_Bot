@@ -4,9 +4,9 @@ import json
 
 token = '1897202859:AAG0mNSPsMQ446m4WQ9IfnwQj3ZHamoUuV8'
 
-# Использование step для разворота строки
-example_string = "Москва река в Москве"
-print(example_string[::-1])
+name = input("Напечатай текст для разворота: ")
+example_string = name
+print(f"Результат: {example_string[::-1]}")
    
 
 
