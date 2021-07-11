@@ -1,1 +1,1 @@
-simple-bot: python simple_bot.py
+worker: python courseramybot.py
