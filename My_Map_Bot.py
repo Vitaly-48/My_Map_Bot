@@ -109,6 +109,10 @@ def handle_reset(message):
     delete_locations(message.chat.id)
     bot.send_message(chat_id=message.chat.id, text='все адреса удалены')
 
-
 if __name__ == '__main__':
-  bot.polling()
+    while True:
+        try:
+            bot.polling(none_stop=True)
+        except Exception as e:
+            time.sleep(1)
+            print(e)
