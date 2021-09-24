@@ -114,5 +114,5 @@ if __name__ == '__main__':
         try:
             bot.polling(none_stop=True)
         except Exception as e:
-            time.sleep(1)
+            time.sleep(3)
             print(e)
